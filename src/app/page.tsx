@@ -18,7 +18,7 @@ export default function Home() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl md:text-7xl font-bold">
-              Hello <br /> I'm <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Nicola Berry</span>
+              Portfolio <br /><span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Nicola Berry</span>
             </h1>
             <p className="mt-4 text-xl text-secondary font-semibold">
               Business Systems Architect & Full-Stack Developer
