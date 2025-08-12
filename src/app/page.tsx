@@ -90,7 +90,7 @@ export default function Home() {
                 transition={{ duration: 0.8 }}
             >
                 <Image
-                  src="/portfolio-me.jpg"
+                  src="/portfolio.jpg"
                   alt="A photo of Nicola Berry at work"
                   width={500}
                   height={500}
