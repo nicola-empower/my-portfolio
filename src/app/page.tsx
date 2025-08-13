@@ -21,7 +21,7 @@ export default function Home() {
               Portfolio <br /><span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">Nicola Berry</span>
             </h1>
             <p className="mt-4 text-xl text-secondary font-semibold">
-              Business Systems Architect & Full-Stack Developer
+              Business Systems Anaylyst | Custom Web App Developer
             </p>
 
             {/* 👇 Your detailed intro text has been restored here 👇 */}
@@ -54,7 +54,7 @@ export default function Home() {
               sequence={[
                 `const profile = {
   name: 'Nicola Berry',
-  title: 'Virtual Architect | Systems & Automation Consultant',
+  title: 'Business Systems Architect | Systems & Automation Consultant',
   skills: [
     ''React', 'NextJS', 'NodeJS', 'Google Apps Script', 'WordPress', 'JavaScript', 'Firebase', 'Python', 'Systems Architecture', 'Workflow Automation', 'Canva', 'TypeScript', 'Supabase', 'Figma','Framer Motion', 'Tailwind CSS', 'HTML5', 'CSS3', 'MongoDB', 'Mongoose', 'REST APIs', 'GraphQL', 'Express.js', 'Redux', 'Tanstack Query', 'NextAuth', 'OAuth', 'Git', 'GitHub', 'Vercel', 'Netlify', 'Google Cloud', 'Google Drive', 'UI Animation' 
   ],
