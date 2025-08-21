@@ -3,8 +3,8 @@ import React, { useEffect } from 'react';
 
 const skills = [
     'JavaScript', 'TypeScript', 'React', 'Next.js', 'Node.js',
-    'Express.js', 'MongoDB', 'HTML5', 'CSS3', 'Tailwind CSS',
-    'Figma', 'Git', 'GitHub', 'REST APIs', 'Vercel', 'Framer Motion'
+    'Express.js', 'MongoDB', 'Python', 'HTML5', 'CSS3', 'Tailwind CSS',
+    'Figma', 'Git', 'GitHub', 'REST APIs', 'Vercel', 'Framer Motion', 'Canva'
 ];
 
 const colors = ['#9A5B8F', '#468585', '#7A93AC', '#E0D8E6'];
