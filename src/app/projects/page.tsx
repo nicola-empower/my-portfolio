@@ -13,8 +13,8 @@ const projectsData = [
         role: "Full-Stack Web App Development (React & Firebase)",
         description: "A fully-featured, bespoke web application designed to enhance the wedding guest experience. The app is custom-branded to match the event's theme and includes features like photo/video sharing, an interactive schedule, a digital menu, and a searchable seating plan, all accessible via a simple QR code.",
         link: "https://empowervaservices.co.uk/wedding-webapp/"
-    },
-    {
+    }, // --- FIX: Added the missing comma here ---
+    { // --- FIX: Added the missing opening curly brace here ---
         title: "Automated Invoice Process",
         role: "Process Automation & Custom Scripting (Google Apps Script)",
         description: "A bespoke, five-step system using Google Apps Script that automatically generates a personalized invoice from a Google Sheet, converts it to a professional PDF, saves it to a Google Drive folder, and drafts an email with the invoice attached. This process saves significant administrative time and ensures consistent, error-free billing.",
@@ -93,7 +93,7 @@ type ProjectCardProps = {
 const ProjectCard = ({ title, role, description, link }: ProjectCardProps) => {
     // The visual content of the card
     const cardContent = (
-        <motion.div 
+        <motion.div
             className="bg-gray-800/50 p-6 rounded-lg border border-accent/30 w-full h-full flex flex-col"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -105,7 +105,7 @@ const ProjectCard = ({ title, role, description, link }: ProjectCardProps) => {
                 {/* Conditionally render the link icon if a link exists */}
                 {link && (
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                     </svg>
                 )}
             </div>
@@ -137,7 +137,7 @@ export default function ProjectsPage() {
             
             <div className="flex flex-col items-center gap-8">
                 {projectsData.map((project, index) => (
-                    <ProjectCard 
+                    <ProjectCard
                         key={index}
                         title={project.title}
                         role={project.role}
