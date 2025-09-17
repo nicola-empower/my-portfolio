@@ -1,11 +1,9 @@
-"use client";
-import { motion } from 'framer-motion';
-
 const projectsData = [
     {
         title: "Empower Hub: My Personal Business Command Centre",
-        role: "Full-Stack Systems Architecture & Development",
-        description: "An ongoing project to build a comprehensive, all-in-one platform using Next.js, TypeScript, and Supabase. It includes modules for financial management, project planning with RLS-based client access, automated quote generation, secure file sharing, and time tracking."
+        role: "Full-Stack System Development",
+        description: "An ongoing project to build a comprehensive, all-in-one platform using Next.js, TypeScript, and Supabase. It includes modules for financial management, project planning with RLS-based client access, automated quote generation, secure file sharing, and time tracking. View the Figma prototype.",
+        link: "https://icon-eraser-87714674.figma.site/"
     },
     {
         title: "Bespoke Wedding Guest App",
@@ -13,6 +11,7 @@ const projectsData = [
         description: "A fully-featured, bespoke web application designed to enhance the wedding guest experience. The app is custom-branded to match the event's theme and includes features like photo/video sharing, an interactive schedule, a digital menu, and a searchable seating plan, all accessible via a simple QR code.",
         link: "https://empowervaservices.co.uk/wedding-webapp/"
     },
+    // --- FIX: Added the missing opening curly brace here ---
     {
         title: "Automated Invoice Process",
         role: "Process Automation & Custom Scripting (Google Apps Script)",
@@ -79,73 +78,3 @@ const projectsData = [
         description: "Developed a bespoke Google Apps Script to tackle a chaotic inbox with over 15,000 emails, reducing daily management time by over 90% and eliminating missed opportunities for the client."
     }
 ];
-
-// --- FIX: Define the types for the component's props ---
-type ProjectCardProps = {
-  title: string;
-  role: string;
-  description: string;
-  link?: string; // The '?' makes the link prop optional
-};
-
-// The ProjectCard component now uses the defined types
-const ProjectCard = ({ title, role, description, link }: ProjectCardProps) => {
-    // The visual content of the card
-    const cardContent = (
-        <motion.div 
-            className="bg-gray-800/50 p-6 rounded-lg border border-accent/30 w-full h-full flex flex-col"
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
-        >
-            <div className="flex justify-between items-start mb-2">
-                <h3 className="text-xl font-bold text-secondary pr-4">{title}</h3>
-                {/* Conditionally render the link icon if a link exists */}
-                {link && (
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                    </svg>
-                )}
-            </div>
-            <p className="font-semibold text-primary mb-2">{role}</p>
-            <p className="text-text-main">{description}</p>
-        </motion.div>
-    );
-
-    // If a link is provided, wrap the card content in an anchor tag
-    if (link) {
-        return (
-            <a href={link} target="_blank" rel="noopener noreferrer" className="block transition-transform duration-300 ease-in-out hover:scale-105">
-                {cardContent}
-            </a>
-        );
-    }
-
-    // If no link, just return the card content
-    return cardContent;
-};
-
-export default function ProjectsPage() {
-    return (
-        <section id="projects" className="py-20">
-            <h2 className="text-4xl font-bold text-center mb-4">My Work & <span className="text-primary">Projects</span></h2>
-            <p className="text-center text-text-muted max-w-3xl mx-auto mb-12">
-                I believe in showing, not just telling. Below is a selection of projects that demonstrate the tangible results and high-level skills I bring to my clients.
-            </p>
-            
-            <div className="flex flex-col items-center gap-8">
-                {projectsData.map((project, index) => (
-                    <ProjectCard 
-                        key={index}
-                        title={project.title}
-                        role={project.role}
-                        description={project.description}
-                        // Pass the new link property to the card
-                        link={project.link}
-                    />
-                ))}
-            </div>
-        </section>
-    );
-}
