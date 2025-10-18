@@ -1,5 +1,6 @@
 "use client";
 import { motion } from 'framer-motion';
+import { link } from 'fs';
 
 const projectsData = [
     {
@@ -54,6 +55,12 @@ const projectsData = [
         role: "Systems Architecture & Development",
         description: "A full-featured productivity platform designed to help VAs manage their entire operation. This system includes a time tracker, document automation for quotes and contracts, task management, and a social media content planner."
     },
+       {
+        title: "Project DANA (Digital Archive & Narrative Assistant)",
+        role: "Secure Full-Stack Application (Next.js & Encrypted Storage)",
+        description: "A secure, password-protected web application designed to empower survivors of domestic abuse. The platform provides a structured, intuitive interface for individuals to chronologically document events, upload evidence (such as screenshots, audio, and documents), and organize their narrative. The final output is a clear, consolidated, and court-ready format, designed to be shared with solicitors or the Procurator Fiscal, streamlining the complex and often re-traumatising process of evidence submission.",
+        link: "https://portfolio.empowervaservices.co.uk/contact"
+    },
     {
         title: "Dynamic Onboarding Form & Quote Generator",
         role: "Bespoke Web App Development",
@@ -79,7 +86,8 @@ const projectsData = [
     {
         title: "Social Media Content Generator",
         role: "Web App Development",
-        description: "A personal project to take the thought process out of creating social media posts. With space to enter an entire blog post, a generate button with the output giving me a perfect post for LinkedIn using my own voice and personal style."
+        description: "A personal project to take the thought process out of creating social media posts. With space to enter an entire blog post, a generate button with the output giving me a perfect post for LinkedIn using my own voice and personal style. Note: As this is a personal project using my own LinkedIn Profile API I have not designed this to allow other people to use and post on my behalf.",
+        link: "https://social-genie.vercel.app/"
     },
     {
         title: "Full Business System Build for a Trades Company",
