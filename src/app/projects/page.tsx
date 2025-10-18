@@ -20,11 +20,29 @@ const projectsData = [
         description: "A bespoke, five-step system using Google Apps Script that automatically generates a personalized invoice from a Google Sheet, converts it to a professional PDF, saves it to a Google Drive folder, and drafts an email with the invoice attached. This process saves significant administrative time and ensures consistent, error-free billing.",
         link: "https://empowervaservices.co.uk/automated-invoice-workflow/"
     },
+      {
+        title: "Website Health Checker Tool",
+        role: "Full-Stack Web Application (Next.js & TypeScript)",
+        description: "An interactive tool that provides an instant audit of a site's performance, SEO, and accessibility using the Google PageSpeed API. The app's core feature is a dynamic pricing engine that translates scores into a tailored, priced action plan, transforming the tool from a simple checker into an automated lead-generation funnel.",
+        link: "https://website-health-checker.vercel.app/"
+    },
     {
         title: "Empower Virtual Assistant Services Website",
         role: "Web Development & Custom Design",
         description: "My professional business website, built on WordPress with the Astra theme. This project demonstrates my ability to not only manage content and functionality on a popular CMS, but also to implement custom design and layout using HTML, CSS, and Tailwind CSS.",
         link: "https://empowervaservices.co.uk/"
+    },
+        {
+        title: "Empower Automation Website",
+        role: "Web Development & Custom Design",
+        description: "My professional business website, built on WordPress with the Astra theme. This project demonstrates my ability to not only manage content and functionality on a popular CMS, but also to implement custom design and layout using HTML, CSS, and Tailwind CSS.",
+        link: "https://empowerautomation.co.uk/"
+    },
+        {
+        title: "Empower Digital Solutions Website",
+        role: "Web Development & Custom Design",
+        description: "My professional business website, built on WordPress with the Astra theme. This project demonstrates my ability to not only manage content and functionality on a popular CMS, but also to implement custom design and layout using HTML, CSS, and Tailwind CSS.",
+        link: "https://empowerdigitalsolutions.co.uk/"
     },
     {
         title: "FinanceNinja: Personal Finance Web App",
