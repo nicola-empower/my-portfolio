@@ -22,7 +22,9 @@ export default function ContactPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16">
                 <div className="flex flex-col gap-8 justify-center">
                     <p className="text-lg text-text-muted">Have a question or want to work together? Drop me a message!</p>
-                    <ContactInfo icon={<FaGlobe />} title="Website" text="empowervaservices.co.uk" href="https://empowervaservices.co.uk" />
+                    <ContactInfo icon={<FaGlobe />} title="Virtual Assistant Website" text="empowervaservices.co.uk" href="https://empowervaservices.co.uk" />
+                    <ContactInfo icon={<FaGlobe />} title="Automation Website" text="empowerautomation.co.uk" href="https://empowerautomation.co.uk" />
+                    <ContactInfo icon={<FaGlobe />} title="Web Developer Website" text="empowerdigitalsolutions.co.uk" href="https://empowerdigitalsolutions.co.uk" />
                     <ContactInfo icon={<FaEnvelope />} title="Email" text="nicola@empowervaservices.co.uk" href="mailto:nicola@empowervaservices.co.uk" />
                     <ContactInfo icon={<FaLinkedin />} title="LinkedIn" text="Connect With Me On LinkedIn" href="https://www.linkedin.com/in/empowervaservices/" />
                     <ContactInfo icon={<FaGithub />} title="Github" text="Check Out My GitHub" href="https://github.com/nicola-empower" />
