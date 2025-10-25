@@ -53,7 +53,8 @@ const projectsData = [
     {
         title: "VAAssist: Virtual Assistant Productivity Platform",
         role: "Systems Architecture & Development",
-        description: "A full-featured productivity platform designed to help VAs manage their entire operation. This system includes a time tracker, document automation for quotes and contracts, task management, and a social media content planner."
+        description: "A full-featured productivity platform designed to help VAs manage their entire operation. This system includes a time tracker, document automation for quotes and contracts, task management, and a social media content planner.",
+        link: "https://nicola-empower.github.io/va-assist-demo/"
     },
        {
         title: "Project DANA (Digital Archive & Narrative Assistant)",
