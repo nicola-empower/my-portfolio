@@ -24,7 +24,7 @@ const projectsData = [
     { 
         title: "Automated Invoice Process",
         role: "Process Automation & Custom Scripting (Google Apps Script)",
-        description: "A bespoke, five-step system using Google Apps Script that automatically generates a personalized invoice from a Google Sheet, converts it to a professional PDF, saves it to a Google Drive folder, and drafts an email with the invoice attached. This process saves significant administrative time and ensures consistent, error-free billing.",
+        description: "A bespoke, five-step system using Google Apps Script that automatically generates a personalised invoice from a Google Sheet, converts it to a professional PDF, saves it to a Google Drive folder, and drafts an email with the invoice attached. This process saves significant administrative time and ensures consistent, error-free billing.",
         link: "https://empowervaservices.co.uk/automated-invoice-workflow/"
     },
       {
@@ -66,7 +66,7 @@ const projectsData = [
        {
         title: "Project DANA (Digital Archive & Narrative Assistant)",
         role: "Secure Full-Stack Application (Next.js & Encrypted Storage)",
-        description: "A secure, password-protected web application designed to empower survivors of domestic abuse. The platform provides a structured, intuitive interface for individuals to chronologically document events, upload evidence (such as screenshots, audio, and documents), and organize their narrative. The final output is a clear, consolidated, and court-ready format, designed to be shared with solicitors or the Procurator Fiscal, streamlining the complex and often re-traumatising process of evidence submission.",
+        description: "A secure, password-protected web application designed to empower survivors of domestic abuse. The platform provides a structured, intuitive interface for individuals to chronologically document events, upload evidence (such as screenshots, audio, and documents), and organise their narrative. The final output is a clear, consolidated, and court-ready format, designed to be shared with solicitors or the Procurator Fiscal, streamlining the complex and often re-traumatising process of evidence submission.",
         link: "https://nicola-empower.github.io/dana-demo/"
     },
     {
@@ -75,6 +75,12 @@ const projectsData = [
         description: "A two-part solution for streamlining the client acquisition process, featuring a menu-style tool for immediate pricing and a dynamic form that creates professional, comprehensive contracts and proposals, saving hours of manual admin.",
         link: "https://nicola-empower.github.io/quote-generator/"
     },
+      {
+    title: "Quote Command",
+    role: "Full-Stack Application Development",
+    description: "Quote Command is a bespoke web application built for tradespeople to streamline quoting and job management. The tool enables users to calculate profit margins, create and track multiple job quotes and easily export data— all in one interface. Designed to address real-world workflow bottlenecks, it helps contractors manage quoting tasks with greater speed and accuracy.",
+    link: "https://nicola-empower.github.io/quote-command/"
+},
     {
     title: "CGH Joinery: Bespoke Quote Tracker",
     role: "Full-Stack Automation (HTML/Google Apps Script)",
