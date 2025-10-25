@@ -107,7 +107,8 @@ const projectsData = [
     {
         title: "Automated Lead Generation System",
         role: "Process Automation",
-        description: "Designed and implemented a structured process that transformed an ad-hoc approach into a reliable system, delivering 40+ qualified leads per month and saving the client 8+ hours weekly."
+        description: "Designed and implemented a structured process that transformed an ad-hoc approach into a reliable system, delivering 40+ qualified leads per month and saving the client 8+ hours weekly.",
+        link: "https://nicola-empower.github.io/lead-gen-demo/"
     },
     {
         title: "Inbox Zero Transformation",
