@@ -113,7 +113,8 @@ const projectsData = [
     {
         title: "Inbox Zero Transformation",
         role: "Custom Scripting (Google Apps Script)",
-        description: "Developed a bespoke Google Apps Script to tackle a chaotic inbox with over 15,000 emails, reducing daily management time by over 90% and eliminating missed opportunities for the client."
+        description: "Developed a bespoke Google Apps Script to tackle a chaotic inbox with over 15,000 emails, reducing daily management time by over 90% and eliminating missed opportunities for the client.",
+        link: "https://nicola-empower.github.io/inbox-zero-demo/"  
     }
 ];
 
