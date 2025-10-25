@@ -59,7 +59,7 @@ const projectsData = [
         title: "Project DANA (Digital Archive & Narrative Assistant)",
         role: "Secure Full-Stack Application (Next.js & Encrypted Storage)",
         description: "A secure, password-protected web application designed to empower survivors of domestic abuse. The platform provides a structured, intuitive interface for individuals to chronologically document events, upload evidence (such as screenshots, audio, and documents), and organize their narrative. The final output is a clear, consolidated, and court-ready format, designed to be shared with solicitors or the Procurator Fiscal, streamlining the complex and often re-traumatising process of evidence submission.",
-        link: "https://portfolio.empowervaservices.co.uk/contact"
+        link: "https://nicola-empower.github.io/dana-demo/"
     },
     {
         title: "Dynamic Onboarding Form & Quote Generator",
