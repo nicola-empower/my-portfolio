@@ -14,8 +14,8 @@ const projectsData = [
         role: "Full-Stack Web App Development (React & Firebase)",
         description: "A fully-featured, bespoke web application designed to enhance the wedding guest experience. The app is custom-branded to match the event's theme and includes features like photo/video sharing, an interactive schedule, a digital menu, and a searchable seating plan, all accessible via a simple QR code.",
         link: "https://empowervaservices.co.uk/wedding-webapp/"
-    }, // --- FIX: Added the missing comma here ---
-    { // --- FIX: Added the missing opening curly brace here ---
+    }, 
+    { 
         title: "Automated Invoice Process",
         role: "Process Automation & Custom Scripting (Google Apps Script)",
         description: "A bespoke, five-step system using Google Apps Script that automatically generates a personalized invoice from a Google Sheet, converts it to a professional PDF, saves it to a Google Drive folder, and drafts an email with the invoice attached. This process saves significant administrative time and ensures consistent, error-free billing.",
@@ -69,6 +69,12 @@ const projectsData = [
         description: "A two-part solution for streamlining the client acquisition process, featuring a menu-style tool for immediate pricing and a dynamic form that creates professional, comprehensive contracts and proposals, saving hours of manual admin.",
         link: "https://nicola-empower.github.io/quote-generator/"
     },
+    {
+    title: "CGH Joinery: Bespoke Quote Tracker",
+    role: "Full-Stack Automation (HTML/Google Apps Script)",
+    description: "A 'Digital Daybook' built for a joiner to replace his manual quote process. The app features a job profit estimator that instantly calculates quotes (incl. materials, labour, profit margin, and VAT). The full solution automatically sends all quote data to a master Google Sheet in real-time. The public demo showcases the front-end calculator and a CSV download feature.",
+    link: "https://nicola-empower.github.io/cgh-joinery/"
+},
     {
         title: "Flagship Project: My Wee Wander Planner",
         role: "Full-Stack Application Development",
