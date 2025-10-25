@@ -48,7 +48,8 @@ const projectsData = [
     {
         title: "FinanceNinja: Personal Finance Web App",
         role: "Full-Stack Application Development",
-        description: "A full-featured personal finance management application. Key features include income and expense tracking, savings goal management, detailed budget summaries, and a self-employment calculator that handles tax, NI, pension, and other critical deductions."
+        description: "A full-featured personal finance management application. Key features include income and expense tracking, savings goal management, detailed budget summaries, and a self-employment calculator that handles tax, NI, pension, and other critical deductions.",
+        link: "https://nicola-empower.github.io/finance-ninja-demo/"
     },
     {
         title: "VAAssist: Virtual Assistant Productivity Platform",
