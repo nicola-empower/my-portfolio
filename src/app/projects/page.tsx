@@ -15,6 +15,12 @@ const projectsData = [
         description: "A fully-featured, bespoke web application designed to enhance the wedding guest experience. The app is custom-branded to match the event's theme and includes features like photo/video sharing, an interactive schedule, a digital menu, and a searchable seating plan, all accessible via a simple QR code.",
         link: "https://empowervaservices.co.uk/wedding-webapp/"
     }, 
+    {
+  title: "Empower Command Centre: The Analytics App",
+  role: "Full-Stack Application",
+  description: "The flagship product for Empower Digital Solutions. This is a high-fidelity, interactive demo of an all-in-one 'Command Centre' that pulls scattered data from Google Analytics, PageSpeed, and App Monitoring tools. Its game-changing feature is the 'how-to-fix' engine, providing non-developers with plain-English steps to fix critical site and app bugs. The demo is fully dynamic, featuring a multi-client switcher that re-skins the UI and tailors all data, themes, and AI-generated solutions for different industries (Landscaper, Wedding Planner, Café Owner).The demo is not connected to any API's and uses mock data for illustration purposes.",
+  link: "https://nicola-empower.github.io/command-centre/"
+},
     { 
         title: "Automated Invoice Process",
         role: "Process Automation & Custom Scripting (Google Apps Script)",
