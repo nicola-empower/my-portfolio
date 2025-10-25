@@ -66,7 +66,8 @@ const projectsData = [
     {
         title: "Dynamic Onboarding Form & Quote Generator",
         role: "Bespoke Web App Development",
-        description: "A two-part solution for streamlining the client acquisition process, featuring a menu-style tool for immediate pricing and a dynamic form that creates professional, comprehensive contracts and proposals, saving hours of manual admin."
+        description: "A two-part solution for streamlining the client acquisition process, featuring a menu-style tool for immediate pricing and a dynamic form that creates professional, comprehensive contracts and proposals, saving hours of manual admin.",
+        link: "https://nicola-empower.github.io/quote-generator/"
     },
     {
         title: "Flagship Project: My Wee Wander Planner",
