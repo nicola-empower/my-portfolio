@@ -87,8 +87,17 @@ const projectsData = [
         summary: "A fully functional web application I developed from scratch to manage complex travel logistics using front-end development and back-end database integration.",
         value: "Designed to eliminate the chaos of managing high-stakes, multi-leg projects (like international roadshows or large event coordination) by centralising all data into a single source of truth.",
         technical_scope: "Uses **Firebase Firestore** for real-time data sync. Features the **Google Maps API** for route planning/logistics. Built with vanilla HTML/CSS/JS, demonstrating mastery of integrated development without a modern framework.",
-        link: "[Insert New, Safe Demo Link Here]",
+        link: "https://nicola-empower.github.io/global-logistics-planner/",
         deployment_type: "Firebase (Demo)"
+    },
+     {
+        title: "Project Voyager: AI-Assisted Travel & Itinerary Platform",
+        role: "Business Strategy & 'Human-in-the-Loop' Service Design",
+        summary: "A high-fidelity, interactive demo of an AI-powered platform that generates complex travel itineraries from a single natural language prompt. It is designed as a powerful internal efficiency tool for virtual assistant services.",
+        value: "To demonstrate the 'Hybrid Automation' model. The AI handles 90% of the laborious planning (research, costings, policy checks), allowing the human Virtual Assistant (me) to provide the high-trust, secure 'last mile' booking. It fuses AI speed with human assurance, turning a 3-hour manual task into a 10-minute review.",
+        technical_scope: "Static demo built with **HTML/Tailwind/JS.** The core concept is 'Plan, Don't Book': 1. AI Integration: The live version is planned to use the **Gemini API** to parse natural language prompts and research flight/hotel options. 2. Human-in-the-Loop: The UI is explicitly designed to send the plan (not a live booking) to the Virtual Assistant for final, secure booking, managing client expectations perfectly. 3. Internal Force-Multiplier: Architected as an internal tool for Empower Virtual Assistant Services to productise travel management and drastically increase service profitability.",
+        link: "https://nicola-empower.github.io/project-voyager-demo/",
+        deployment_type: "GitHub Pages (Demo)"
     },
     {
         title: "Quote Command: Dynamic Trades Profit Calculator & Job Tracker",
