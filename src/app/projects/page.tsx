@@ -293,7 +293,7 @@ export default function ProjectsPage() {
         <section id="projects" className="py-20">
             <h2 className="text-4xl font-bold text-center mb-4">My Work & <span className="text-primary">Projects</span></h2>
             <p className="text-center text-text-muted max-w-3xl mx-auto mb-12">
-                This portfolio is structured for easy reading: **Impact & Value** for clients, and **Technical Scope** for developers.
+                Below are some of the key projects I've developed, showcasing my full-stack development skills, systems architecture expertise and ability to deliver impactful solutions. Each project highlights both the technical scope and the value delivered to clients or users.
             </p>
             
             <div className="flex flex-col items-center gap-8 max-w-4xl mx-auto">
