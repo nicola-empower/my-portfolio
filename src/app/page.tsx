@@ -26,7 +26,7 @@ export default function Home() {
 
             {/* 👇 Your detailed intro text has been restored here 👇 */}
             <p className="mt-4 text-text-muted">
-              A modern, tech-forward administrative and operational support consultancy based in Stenhousemuir, Scotland. I specialise in moving beyond traditional virtual assistance by acting as Systems Architects for small to medium-sized enterprises (SMEs), solopreneurs, and service-based businesses. My mission is to solve operational problems at their root by designing and implementing custom, automated solutions.
+              A modern, tech-forward administrative and operational support consultancy based in Falkirk, Scotland. I specialise in moving beyond traditional virtual assistance by acting as a Strategic Partner for small to medium-sized enterprises (SMEs), solopreneurs and service-based businesses. My mission is to solve operational problems at their root by designing and implementing custom, automated solutions.
             </p>
 
             <div className="mt-8 flex gap-4">
@@ -109,15 +109,17 @@ export default function Home() {
                 </h2>
                 <div className="space-y-4 text-text-muted">
                 <p>
-                    As a Systems Architect, I specialise in moving businesses beyond traditional assistance by designing and implementing custom, automated solutions that solve operational problems at their root.
+                    As a Systems Analyst, I specialise in moving businesses beyond traditional assistance by designing and implementing custom, automated solutions that solve operational problems at their root.
                 </p>
                 <blockquote className="border-l-4 border-primary pl-4 italic">
-                    "I realised the bottlenecks I had eliminated for myself were the same ones holding other businesses back. My focus shifted... I'm not just offering my time anymore; I am architecting solutions."
+                    "I realised the bottlenecks I had eliminated for myself were the same ones holding other businesses back. My focus shifted... I'm not just offering my time anymore; I am designing and creating solutions."
                 </blockquote>
                 <p>
-                    Unlike traditional Virtual Assistants who perform repetitive tasks, my goal is to build the engines that eliminate those tasks entirely. My mission is to empower businesses to reclaim their most valuable asset: time. By transforming inefficient manual processes into streamlined and scalable systems. Using tools like 
+                    My mission is to transform business operations, moving clients from manual chaos to streamlined, scalable systems. I don't just perform tasks; I build the custom engines that eliminate them permanently.
 
-Google Apps Script and Python, I bridge the gap between administrative support and custom software development. This strategic approach focuses on the return on investment (ROI) of automation, delivering permanent solutions that create lasting value.
+I bridge the critical gap between high-level administrative support, back-end process automation (Google Apps Script) and full-stack web development. This unique blend allows me to do more than just automate a process; I can design, build and deploy the entire user-friendly platform that runs that process.
+
+My approach focuses on the strategic ROI of building bespoke, permanent solutions that create a single source of truth and reclaim your most valuable asset: time. 
 </p>
                 </div>
             </motion.div>
