@@ -1,14 +1,8 @@
-<<<<<<< HEAD
+
 # Nicola's Portfolio
 =======
 
 <img width="2821" height="1435" alt="image" src="https://github.com/user-attachments/assets/4e38ac7d-316d-4445-b001-3d741bba8e9f" />
-
-A personal dev portfolio
-
-
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
->>>>>>> 78b9b734f205748c5be4affd00c61d7551cb5e8f
 
 A modern, responsive personal portfolio website built with Next.js, showcasing my skills, experience, and projects. Updated to September 2025.
 
