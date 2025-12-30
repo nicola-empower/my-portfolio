@@ -1,80 +1,85 @@
+<<<<<<< HEAD
 
 # Nicola's Portfolio
 =======
+=======
+# Nicola Berry - Portfolio
+>>>>>>> 9fb5bde (update seo readme and contact page)
 
-<img width="2821" height="1435" alt="image" src="https://github.com/user-attachments/assets/4e38ac7d-316d-4445-b001-3d741bba8e9f" />
+<div align="center">
+  <img src="/portfolio.jpg" alt="Nicola Berry" width="150" height="150" style="border-radius: 50%; border: 4px solid #A7D1D2;" />
+  <h3>Business Systems Analyst | Full Stack Developer</h3>
+  <p><em>"Don't just do tasks; eliminate them."</em></p>
+</div>
 
+<<<<<<< HEAD
 A modern, responsive personal portfolio website built with Next.js, showcasing my skills, experience, and projects. Updated to September 2025.
+=======
+---
+
+A modern, responsive personal portfolio website built with **Next.js 14**, showcasing my skills, experience, and custom-built projects. This site serves as a "Digital CV" and a demonstration of my ability to build premium, code-first solutions.
+>>>>>>> 9fb5bde (update seo readme and contact page)
 
 ## 🚀 Tech Stack
 
-This project is built using the following technologies:
+*   **[Next.js 14](https://nextjs.org/)** - App Router & Server Components
+*   **[TypeScript](https://www.typescriptlang.org/)** - Strict typing for robust architecture
+*   **[Tailwind CSS v4](https://tailwindcss.com/)** - Utility-first styling with custom Glassmorphism tokens
+*   **[Framer Motion](https://www.framer.com/motion/)** - Complex layout projections (3D Carousel, Shared Element Transitions)
+*   **[React Icons](https://react-icons.github.io/react-icons/)** - Visual assets
 
-*   **[Next.js 14](https://nextjs.org/)** - App Router framework for React
-*   **[TypeScript](https://www.typescriptlang.org/)** - Static typing for better code quality
-*   **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework for styling
-*   **[Framer Motion](https://www.framer.com/motion/)** - Library for production-ready animations
-*   **[React Icons](https://react-icons.github.io/react-icons/)** & **TagCanvas** - For 3D visualizations
+## ✨ New Premium Attributes
 
-## ✨ Key Features
+### 1. The Glass Passport (Hero)
+A custom-built "Identity Card" on the homepage that replaces standard text intros.
+*   **Features:** Tilt-effect (3D mouse tracking), "Verified System" badge, and live tech-stack status indicators.
+*   **Tech:** Framer Motion + CSS Backdrop Filter.
 
-*   **Interactive Skills Sphere**: A dynamic 3D-like tag cloud visualization of technical skills, populated by icons for a clean, visual aesthetic.
-*   **Split-Screen Projects**: A "Sticky Live Preview" layout on desktop that allows users to view a live website frame while determining which project to explore.
-*   **Comprehensive Experience Profile**: A detailed "Professional Journey" page featuring a career timeline, biographical overview, and "Superpowers" soft-skills grid.
-*   **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices (with mobile-specific layout fallbacks).
-*   **Smooth Animations**: Engaging page transitions and element reveals powered by Framer Motion.
+### 2. 3D Project Deck (Carousel)
+Replaced the traditional "List View" with an immersive, app-like deck.
+*   **Interaction:** Users "swipe" through projects. 
+*   **Depth:** Cards fade into the background using Z-Index scaling and blur filters.
+*   **Filtering:** "Highlights", "AI & GenAI", and "Dashboards" categories to manage the extensive project list (36+ items).
 
-## 🛠️ Getting Started
-
-Follow these steps to run the project locally:
-
-1.  **Prerequisites**: Ensure you have Node.js installed on your machine.
-
-2.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/portfolio-final.git
-    cd portfolio-final
-    ```
-
-3.  **Install dependencies**:
-    ```bash
-    npm install
-    # or
-    yarn install
-    # or
-    pnpm install
-    ```
-
-4.  **Run the development server**:
-    ```bash
-    npm run dev
-    # or
-    yarn dev
-    # or
-    pnpm dev
-    ```
-
-5.  **Open your browser**:
-    Navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+### 3. The Big Data Glitch (Contact)
+A subtle, pulsing "Server Room" aesthetic on the Contact Page.
+*   **Vibe:** Abstract gradient orbs mixed with SVG grids to imply high-tech data processing.
 
 ## 📂 Project Structure
 
 ```bash
 src/
 ├── app/
-│   ├── experience/       # Professional Profile & Timeline
-│   ├── projects/         # Split-Screen Project Showcase
-│   ├── skills/           # Skills visualization
-│   └── page.tsx          # Home page
+│   ├── experience/       # Timeline & Professional Journey
+│   ├── projects/         # 3D Carousel Project Showcase
+│   ├── contact/          # "Glitch" styled contact form
+│   └── page.tsx          # Home (Glass Passport)
 ├── components/
-│   ├── ProjectLivePreview.tsx  # Sticky iframe component
-│   ├── SkillsSphere.tsx        # 3D Icon Cloud
-│   ├── InfoCard.tsx            # Reusable grid card
+│   ├── HeroGlassCard.tsx # 3D Tilt Card Component
+│   ├── ProjectCarousel.tsx # Framer Motion Deck
+│   ├── Navbar.tsx        # Navigation
 │   └── ...
 └── data/
-    └── skills.ts         # Centralized skills & icons definition
+    └── ...
 ```
+
+## 🛠️ Getting Started
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/nicola-empower/my-portfolio.git
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
 ## 📄 License
 
-This project is open source and available under the information provided in the repository.
+(c) 2024-2025 Nicola Berry. All Rights Reserved.
