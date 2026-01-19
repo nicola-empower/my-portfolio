@@ -1,12 +1,13 @@
 # Nicola Berry - Portfolio
 
 <div align="center">
-  <img src="/portfolio.jpg" alt="Nicola Berry" width="150" height="150" style="border-radius: 50%; border: 4px solid #A7D1D2;" />
   <h3>Business Systems Analyst | Full Stack Developer</h3>
   <p><em>"Don't just do tasks; eliminate them."</em></p>
 </div>
 
 ---
+<img width="2832" height="1518" alt="image" src="https://github.com/user-attachments/assets/46c794b4-2a3c-4813-8ac9-70496ef06fa6" />
+
 
 A modern, responsive personal portfolio website built with **Next.js 14**, showcasing my skills, experience, and custom-built projects. This site serves as a "Digital CV" and a demonstration of my ability to build premium, code-first solutions.
 
@@ -34,6 +35,11 @@ Replaced the traditional "List View" with an immersive, app-like deck.
 ### 3. The Big Data Glitch (Contact)
 A subtle, pulsing "Server Room" aesthetic on the Contact Page.
 *   **Vibe:** Abstract gradient orbs mixed with SVG grids to imply high-tech data processing.
+
+*   <img width="2812" height="1503" alt="image" src="https://github.com/user-attachments/assets/05f06c78-73a7-4259-83f2-c1c05507caea" />
+<img width="2810" height="1513" alt="image" src="https://github.com/user-attachments/assets/4e8a75a6-f10c-436d-9c01-db7b726e85b7" />
+
+
 
 ## 📂 Project Structure
 
